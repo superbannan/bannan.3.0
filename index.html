@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Banana Clicker</h1>
+        <div id="stats">
+            <p>Money: $<span id="money">0</span></p>
+            <p>Per Click: $<span id="perClick">1</span></p>
+            <p>Inventory: <span id="inventory">0 bananas</span></p>
+        </div>
+        
+        <img id="banana" src="https://i.imgur.com/5j5g8Y4.png" alt="Banana">
+        
+        <div id="controls">
+            <button id="upgradeBtn">Upgrade Click ($<span id="upgradeCost">10</span>)</button>
+            <button id="sellBtn">Sell Random Banana</button>
+        </div>
+        
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
